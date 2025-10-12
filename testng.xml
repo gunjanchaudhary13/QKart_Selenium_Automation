@@ -1,0 +1,12 @@
+
+<suite name="QKart Suite" parallel="tests" thread-count="5">
+    <test name="QKart Functional Tests">
+        <classes>
+            <class name="tests.TestClass1"/>
+            <class name="tests.TestClass2"/>
+            <class name="tests.TestClass3"/>
+            <class name="tests.TestClass4"/>
+            <class name="tests.TestClass5"/>
+        </classes>
+    </test>
+</suite>

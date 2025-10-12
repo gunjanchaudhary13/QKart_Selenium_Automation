@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-13T02:14:06 IST" name="Default suite" finished-at="2025-10-13T02:15:48 IST" duration-ms="101080">
+    <groups>
+    </groups>
+    <test started-at="2025-10-13T02:14:06 IST" name="Default test" finished-at="2025-10-13T02:15:48 IST" duration-ms="101080">
+      <class name="tests.TestClass5">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass5@6caf0677]" started-at="2025-10-13T02:14:06 IST" name="setup" finished-at="2025-10-13T02:14:15 IST" duration-ms="8573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PurchaseWorkflow()[pri:0, instance:tests.TestClass5@6caf0677]" started-at="2025-10-13T02:14:15 IST" name="PurchaseWorkflow" finished-at="2025-10-13T02:14:52 IST" duration-ms="36452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseWorkflow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass5@6caf0677]" started-at="2025-10-13T02:14:52 IST" name="tearDown" finished-at="2025-10-13T02:14:52 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass5 -->
+      <class name="tests.TestClass3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass3@413d1baf]" started-at="2025-10-13T02:14:52 IST" name="setup" finished-at="2025-10-13T02:15:02 IST" duration-ms="9882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PageMetadataValidation()[pri:0, instance:tests.TestClass3@413d1baf]" started-at="2025-10-13T02:15:02 IST" name="PageMetadataValidation" finished-at="2025-10-13T02:15:03 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageMetadataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass3@413d1baf]" started-at="2025-10-13T02:15:03 IST" name="tearDown" finished-at="2025-10-13T02:15:03 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass3 -->
+      <class name="tests.TestClass4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass4@16eb3ea3]" started-at="2025-10-13T02:15:03 IST" name="setup" finished-at="2025-10-13T02:15:13 IST" duration-ms="9888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginAndLogoutCheck()[pri:0, instance:tests.TestClass4@16eb3ea3]" started-at="2025-10-13T02:15:13 IST" name="LoginAndLogoutCheck" finished-at="2025-10-13T02:15:25 IST" duration-ms="11543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndLogoutCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass4@16eb3ea3]" started-at="2025-10-13T02:15:25 IST" name="tearDown" finished-at="2025-10-13T02:15:25 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass4 -->
+      <class name="tests.TestClass1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass1@273444fe]" started-at="2025-10-13T02:15:25 IST" name="setup" finished-at="2025-10-13T02:15:35 IST" duration-ms="9740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testClass1_UIElementsPresentAndClickable()[pri:0, instance:tests.TestClass1@273444fe]" started-at="2025-10-13T02:15:35 IST" name="testClass1_UIElementsPresentAndClickable" finished-at="2025-10-13T02:15:37 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass1_UIElementsPresentAndClickable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass1@273444fe]" started-at="2025-10-13T02:15:37 IST" name="tearDown" finished-at="2025-10-13T02:15:37 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass1 -->
+      <class name="tests.TestClass2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestClass2@33bc72d1]" started-at="2025-10-13T02:15:37 IST" name="setup" finished-at="2025-10-13T02:15:46 IST" duration-ms="9672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PageContentValidation()[pri:0, instance:tests.TestClass2@33bc72d1]" started-at="2025-10-13T02:15:46 IST" name="PageContentValidation" finished-at="2025-10-13T02:15:47 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageContentValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestClass2@33bc72d1]" started-at="2025-10-13T02:15:47 IST" name="tearDown" finished-at="2025-10-13T02:15:48 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestClass2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
