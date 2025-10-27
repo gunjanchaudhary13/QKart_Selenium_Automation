@@ -16,8 +16,12 @@ public class TestClass5 extends BaseTest {
 	public void PurchaseWorkflow() {
 		System.out.println("--- Executing Class 5: Purchase process ---");
 		HomePage homePage = new HomePage(driver);
-		String username = prop.getProperty("register_username");
-		String password = prop.getProperty("register_password");
+		//String username = prop.getProperty("register_username");
+		int randomNumber = (int) ((Math.random() * 9000000) + 1000000);
+		String username = "Gunjan_" + randomNumber;
+		String password = "Gunjan_" + randomNumber;
+		//String password = prop.getProperty("register_password");
+		
 		String item1 = "YONEX Smash Badminton Racquet";
 		String item2 = "Roadster Mens Running Shoes";
 		// String expectedSuccessMsg = "Product has been successfully added to cart";

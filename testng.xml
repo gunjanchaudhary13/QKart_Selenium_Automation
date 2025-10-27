@@ -1,7 +1,9 @@
 
 <suite name="QKart Suite" parallel="tests" thread-count="5">
-    <test name="QKart Functional Tests">
+    <test name="ChromeTest">
+		<parameter name="browser" value="chrome"/>
         <classes>
+			
             <class name="tests.TestClass1"/>
             <class name="tests.TestClass2"/>
             <class name="tests.TestClass3"/>
@@ -9,4 +11,14 @@
             <class name="tests.TestClass5"/>
         </classes>
     </test>
+    <test name="FirefoxTest">
+            <parameter name="browser" value="firefox"/>
+            <classes>
+                <class name="tests.TestClass1"/>
+            <class name="tests.TestClass2"/>
+            <class name="tests.TestClass3"/>
+            <class name="tests.TestClass4"/>
+            <class name="tests.TestClass5"/>
+            </classes>
+        </test>
 </suite>
